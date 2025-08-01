@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dark Validator</title>
+  <link rel="stylesheet" href="18.css" />
+</head>
+<body>
+  <div class="form-card">
+    <h2>Login</h2>
+    <form  autocomplete="off" id="loginForm">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="e.g. user@example.com" />
+        <small id="emailError">Invalid email address</small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="6–20 characters" />
+        <small id="passwordError">Invalid password</small>
+      </div>
+
+      <button type="submit">Login</button>
+      <div id="resultmsg">
+         
+      </div>
+    </form>
+  </div>
+
+  <script src="18.js"></script>
+</body>
+</html>
